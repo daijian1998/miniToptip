@@ -1,0 +1,4 @@
+<view class="{{type}} position normal{{show?'-active':''}}" wx:if="{{show}}" id="toptip">
+<view class="iconfont icon-{{type}}"></view>
+<view class="tip">{{tip}}</view>
+</view>
